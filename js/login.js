@@ -1,0 +1,9 @@
+$(function(){	
+	//没登录显示登录，已登录显示昵称
+	$('.signinbtn').on('click',function(){
+        alert('请登录')
+    })
+	$('.signupbtn').on('click',function(){
+        alert('请注册')
+    })
+})
